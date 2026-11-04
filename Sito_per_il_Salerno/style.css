@@ -16,13 +16,32 @@ h1
 }
 .tab_alta
 {
-    width: auto;
+    width: 99%;
     background-color: antiquewhite;
     position: fixed;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
 }
 a
 {
     padding-left: 50px;
     color: black;
     text-decoration: none;
+}
+.tabellone
+{
+    background-color: #795035; 
+    width: 100%;
+    padding-bottom: 40px;
+    border-width: 30px solid gray;
+    min-height: 500px;
+
+}
+.postit_bianco
+{
+    background-color: whitesmoke;
+    width: 200px;
+    height: 150px;
+
 }
