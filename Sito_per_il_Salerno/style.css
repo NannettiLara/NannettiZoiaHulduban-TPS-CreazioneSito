@@ -31,17 +31,59 @@ a
 }
 .tabellone
 {
-    background-color: #795035; 
-    width: 100%;
+    /*background-color: #795035; */
+    background-image: url("assets/img/sughero.jpg");
+    border-radius: 5px;
+    border-image: url(assets/img/Border.png);
+    border: 10px solid;
+    width: 75%;
+    margin: auto;
     padding-bottom: 40px;
     border-width: 30px solid gray;
     min-height: 500px;
 
 }
-.postit_bianco
+.postit_uno
 {
     background-color: whitesmoke;
     width: 200px;
     height: 150px;
+    margin: 50px;
+    margin-left: 60px;
+}
+.postit_due
+{
+    background-color: whitesmoke;
+    width: 200px;
+    height: 150px;
+    margin: 50px;
+    margin-left: 150px;
+
+}
+.postit_tre
+{
+    background-color: whitesmoke;
+    width: 200px;
+    height: 150px;
+    margin: 50px;
+    margin-left: 100px;
+
+}
+.postit_quattro
+{
+    background-color: whitesmoke;
+    width: 200px;
+    height: 150px;
+    margin: 50px;
+    margin-left: 250px;
+
+}
+.postit_cinque
+{
+    background-color: whitesmoke;
+    width: 200px;
+    height: 150px;
+    margin: 50px;
+    margin-left: 150px;
 
 }
