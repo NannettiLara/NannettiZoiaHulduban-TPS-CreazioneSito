@@ -23,7 +23,7 @@ h1
     padding-top: 20px;
 
 }
-a
+.Indice
 {
     padding-left: 50px;
     color: black;
@@ -46,18 +46,20 @@ a
 .postit_uno
 {
     background-color: whitesmoke;
-    width: 200px;
-    height: 150px;
+    width: 210px;
+    height: 180px;
     margin: 50px;
     margin-left: 60px;
+    margin-top: 20px;
     box-shadow: 3px 3px 9px rgb(73, 55, 0);
+    
     
 }
 .postit_due
 {
     background-color: whitesmoke;
-    width: 200px;
-    height: 150px;
+    width: 210px;
+    height: 180px;
     margin: 50px;
     margin-left: 150px;
     box-shadow: 3px 3px 9px rgb(73, 55, 0);
@@ -66,8 +68,8 @@ a
 .postit_tre
 {
     background-color: whitesmoke;
-    width: 200px;
-    height: 150px;
+    width: 210px;
+    height: 180px;
     margin: 50px;
     margin-left: 100px;
     box-shadow: 3px 3px 9px rgb(73, 55, 0);
@@ -76,8 +78,8 @@ a
 .postit_quattro
 {
     background-color: whitesmoke;
-    width: 200px;
-    height: 150px;
+    width: 210px;
+    height: 180px;
     margin: 50px;
     margin-left: 250px;
     box-shadow: 3px 3px 9px rgb(73, 55, 0);
@@ -86,11 +88,59 @@ a
 .postit_cinque
 {
     background-color: rgb(255, 236, 160);
-    width: 200px;
-    height: 150px;
+    width: 210px;
+    height: 180px;
     margin: 50px;
     margin-left: 150px;
     box-shadow: 3px 3px 9px rgb(73, 55, 0);
 
 }
 
+.LinkText {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.MidText {
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+/* PAGINE INDIRIZZI */
+
+.Title {
+    text-align: center;
+    font-size: 250%;
+    font-weight: 600;
+}
+
+.midText {
+    text-align: center;
+    font-size: 130%;
+    padding-top: 50px;
+}
+
+.Materie {
+    background-color:bisque;
+    border: 4px solid;
+    border-color: coral;
+    
+    width: 210px;
+    height: 150px;
+    margin: 50px;
+    margin-left: 100px;
+
+}
+
+.Squares {
+    background-color:bisque;
+    border: 2px solid;
+    border-color: coral;
+    
+    width: 650px;
+    height: 350px;
+    margin: 48px;
+
+}
