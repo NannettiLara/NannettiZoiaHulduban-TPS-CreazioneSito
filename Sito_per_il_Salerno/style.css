@@ -34,7 +34,7 @@ a
     /*background-color: #795035; */
     background-image: url("assets/img/sughero.jpg");
     border-radius: 5px;
-    border-image: url(assets/img/Border.png);
+    border-image: url(assets/img/Border.png) 30 round;
     border: 10px solid;
     width: 75%;
     margin: auto;
@@ -50,6 +50,8 @@ a
     height: 150px;
     margin: 50px;
     margin-left: 60px;
+    box-shadow: 3px 3px 9px rgb(73, 55, 0);
+    
 }
 .postit_due
 {
@@ -58,6 +60,7 @@ a
     height: 150px;
     margin: 50px;
     margin-left: 150px;
+    box-shadow: 3px 3px 9px rgb(73, 55, 0);
 
 }
 .postit_tre
@@ -67,6 +70,7 @@ a
     height: 150px;
     margin: 50px;
     margin-left: 100px;
+    box-shadow: 3px 3px 9px rgb(73, 55, 0);
 
 }
 .postit_quattro
@@ -76,14 +80,17 @@ a
     height: 150px;
     margin: 50px;
     margin-left: 250px;
+    box-shadow: 3px 3px 9px rgb(73, 55, 0);
 
 }
 .postit_cinque
 {
-    background-color: whitesmoke;
+    background-color: rgb(255, 236, 160);
     width: 200px;
     height: 150px;
     margin: 50px;
     margin-left: 150px;
+    box-shadow: 3px 3px 9px rgb(73, 55, 0);
 
 }
+
